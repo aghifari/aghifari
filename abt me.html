@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="abt me.css">
+    <link rel="icon" type="png" href="pict/me.png">
+    <title>Ghifari</title>
+</head>
+
+
+<body>
+    <!--header-->
+    <div id="header">
+        <!--Nama-->  
+        <a href ="#welcome"id="nama"><b>Achmad Ghifari</b></p>
+        <!--Menu Bar-->
+        <nav id="menu">
+            <a href="#welcome" class="link1"><b>Home</b></a>
+            <a href="#about" class="link2"><b>About</b></a>
+            <!--<a href="#contact" class="link3"><b>Contact</b></a>-->
+        </nav>
+    </div>
+
+    <!--Welcome-->
+    <div id="welcome">
+        <div id="vsco">
+        <a href="https://vsco.co/aghifariii/gallery" target="_blank"><img class="img1" src="pict/vsco.png"></a>
+        <a href="https://www.linkedin.com/in/achmad-ghifari-574b711b3/" target="_blank"><img class="img3" src="pict/linkedin.png"></a>
+        </div>
+        <center>
+            <img class="mypic" src="pict/me.png" width="140px" height="170px">
+        </center>
+        <div id="ig"> 
+        <a href="mailto:achmadghifari01@gmail.com?" target="_blank"><img class="img4" src="pict/gmail.png"></a>
+        <a href="https://instagram.com/aghhiiffari" target="_blank"><img class="img2" src="pict/ig.png"></a>
+        </div>
+    </div>
+
+    <!--Body-->
+    <div id="about">
+        <h1 id="aboutme" align="center"> <mark id="box">About me!</mark> </h1>
+        <p  class="text" align="center">Aloha! I'm a 2nd year Computer Engineering student at University of Brawijaya.</p>
+        <p class="text" align="center">Currently, i'm learning about microcontroller programming with C and Arduino assembly language.</p>
+        <p class="text" align="center">If you want to know about my experience, check out my <mark class="highlight">
+            <a class="linkab" href="https://www.linkedin.com/in/achmad-ghifari-574b711b3/" target="_blank">Linkedin</a></mark></p>
+        <p class="text" align="center">I'm also a photography and videography enthusiast, you can visit my gallery on my <mark class="highlight">
+            <a class="linkab" href="https://vsco.co/aghifariii/gallery">VSCO</a></mark> and <mark class="highlight">
+            <a class="linkab" href="https://instagram.com/aghhiiffari">Instagram</a></mark></p>
+    </div>
+
+    <!--Contact
+    <div id="contact">
+        <center>
+        <h1 id="con">Contact</h1>
+        <a id="em" href="" target="_blank">email</a>
+        <a id="li" href="" target="_blank">linkedin</a>
+        </center>
+    </div>-->
+
+    <!--Footer-->
+    <div id="footer">
+        <center>
+        <p>Achmad Ghifari &copy; 2021</p>
+        <p id="time"></p>
+        </center>
+    </div>
+
+    <script type="text/javascript">
+        // 1 detik = 1000
+        window.setTimeout("waktu()",1000);  
+        function waktu() {   
+        var tanggal = new Date();  
+        setTimeout("waktu()",1000);  
+        document.getElementById("time").innerHTML = tanggal.getHours()+":"+tanggal.getMinutes()+":"+tanggal.getSeconds();
+        }
+    </script>
+</body>
+
+</html>
