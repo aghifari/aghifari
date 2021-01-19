@@ -1,4 +1,3 @@
-@media all and (max-width: 670px){
 html{
     scroll-behavior: smooth;
 }
@@ -28,6 +27,4 @@ body{
 
 #mypic{
     align-items: center;
-}
-
 }
